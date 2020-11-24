@@ -9,10 +9,6 @@
 #import "UCARAudioTool.h"
 #import "UCARLameTool.h"
 #import "UCARAudioFilePathTool.h"
-#import "RNCryptor.h"
-#import "RNDecryptor.h"
-#import "RNEncryptor.h"
-#import "RNCryptorEngine.h"
 #include <mach/mach.h> //获取CPU信息所需要引入的头文件
 
 // 录音存放的文件夹 /Library/Caches/Recorder
