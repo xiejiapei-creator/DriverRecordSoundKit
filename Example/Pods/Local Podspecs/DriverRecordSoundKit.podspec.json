@@ -1,0 +1,35 @@
+{
+  "name": "DriverRecordSoundKit",
+  "version": "1.0.0",
+  "summary": "使用场景包括：司机行驶过程、会议、课程等的全程录音",
+  "description": "1. 部分城市运管部门要求网约车需提供服务过程中录音功能\n2. 与高德等聚合平台对账时，对于部分争议作弊订单，需要行程中录音证据\n3. 司乘发生纠纷时，有行程中录音可方便责任判定，并且行程中录音功能的存在，可在一定程度上避免一些恶意投诉或司机不规范服务\n4. 便于业务部门抽查司机服务规范情况，例如人工抽查或语音质检\n5. 本录音工具类也可用于会议或者上课等场景进行全程录制",
+  "homepage": "https://github.com/xiejiapei-creator/DriverRecordSoundKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiejiapei-creator": "2170928274@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xiejiapei-creator/DriverRecordSoundKit.git",
+    "tag": "1.0.0"
+  },
+  "social_media_url": "https://www.jianshu.com/u/1ceb4a330607",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DriverRecordSoundKit/Classes/**/*",
+  "public_header_files": "DriverRecordSoundKit/Classes/UCARRecordSoundTool.h",
+  "vendored_libraries": "DriverRecordSoundKit/Classes/**/*.a",
+  "frameworks": [
+    "AVFoundation",
+    "Foundation",
+    "Security"
+  ],
+  "dependencies": {
+    "RNCryptor-objc": [
+
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - DriverRecordSoundKit (1.0.0):
+    - RNCryptor-objc
+  - RNCryptor-objc (3.0.6)
+
+DEPENDENCIES:
+  - DriverRecordSoundKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RNCryptor-objc
+
+EXTERNAL SOURCES:
+  DriverRecordSoundKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DriverRecordSoundKit: 4ed3108e5d2f0f2a32cbb6b6549a2256ec0be272
+  RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
+
+PODFILE CHECKSUM: 420a1508b297614d87bc6b02324d3ea21fad3956
+
+COCOAPODS: 1.9.1
