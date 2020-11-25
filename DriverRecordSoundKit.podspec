@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'DriverRecordSoundKit/Classes/**/*'
   s.public_header_files = 'DriverRecordSoundKit/Classes/UCARRecordSoundTool.h'
-  s.vendored_libraries = 'DriverRecordSoundKit/Classes/**/*.a'
+  s.vendored_libraries = 'DriverRecordSoundKit/Classes/libmp3lame.a'
 
   s.frameworks = "AVFoundation", "Foundation", "Security"
   s.dependency 'RNCryptor-objc'

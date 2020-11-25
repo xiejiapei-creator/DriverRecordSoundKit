@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "xiejiapei-creator";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 75CT28DXS2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -496,6 +499,7 @@
 			baseConfigurationReference = 0A6233F580EFCB895F198DDF /* Pods-DriverRecordSoundKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75CT28DXS2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DriverRecordSoundKit/DriverRecordSoundKit-Prefix.pch";
 				INFOPLIST_FILE = "DriverRecordSoundKit/DriverRecordSoundKit-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = E16D2FCB34D1569568D8B0F4 /* Pods-DriverRecordSoundKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75CT28DXS2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DriverRecordSoundKit/DriverRecordSoundKit-Prefix.pch";
 				INFOPLIST_FILE = "DriverRecordSoundKit/DriverRecordSoundKit-Info.plist";

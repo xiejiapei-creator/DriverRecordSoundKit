@@ -21,7 +21,7 @@
   },
   "source_files": "DriverRecordSoundKit/Classes/**/*",
   "public_header_files": "DriverRecordSoundKit/Classes/UCARRecordSoundTool.h",
-  "vendored_libraries": "DriverRecordSoundKit/Classes/**/*.a",
+  "vendored_libraries": "DriverRecordSoundKit/Classes/libmp3lame.a",
   "frameworks": [
     "AVFoundation",
     "Foundation",
