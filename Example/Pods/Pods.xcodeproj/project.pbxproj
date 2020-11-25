@@ -7,48 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0746DF22BD105F787A36E897CC6A3ED6 /* DriverRecordSoundKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BC4182A3BE71AC1F5EDEFC6374A329 /* DriverRecordSoundKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14767D149ACAE62AFFBB021AE3F88E0E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C5609AC8B64D11195D0EC0BABE6E9C /* Security.framework */; };
-		19B81D1839EFCC9E9DAC8388D902CB1B /* RNCryptor iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE4CC4A3D0B3B2A7DDD7CB373D72446 /* RNCryptor iOS.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1CFABDF80BD6A45EC48C58246721B18E /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C364A9367C05E24C0FB440413ED39 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1D6B884F87CE824A6703974B770957C3 /* DriverRecordSoundKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF71BAEF5B9A840A697B59AA54AAD8 /* DriverRecordSoundKit-dummy.m */; };
-		216409F7E2015AED76BB1BD96EE3318E /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F327EBBA21AD597B79F5F9130ACA95B /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		23A26B5E14CD7B4B15A46B26447C5D34 /* UCARLameTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B65940BCA5E4AF798E7C7B9B042E0E12 /* UCARLameTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		26C15022B0590CDBA49883BEF842D38E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C5609AC8B64D11195D0EC0BABE6E9C /* Security.framework */; };
-		2AD9FC4E654F9BBD4ECFF0BDB1BFAD2A /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = D96879AD218774FE2CCBD72228C3A796 /* lame.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2ED97694E2E781C8155FD76109685D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F94DD523BFA304ECEC932E9649915 /* Foundation.framework */; };
-		3D332979D8A77998A72214E049ABC19C /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641680FADC4731E6681FC32DCC37766 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3F10B685FF2C27160D004081BD4D02D8 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 969942224F022DDF06C7E99A7149BCC0 /* RNCryptor-objc-dummy.m */; };
-		4741CE2D0FAC837BB7B772B4F9CDFE1D /* UCARAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B3C84F22AE2EFE47D7A0FC6E1D788D /* UCARAudioTool.m */; };
-		4B2140384FD6702F9F3A5DEE7A7466AD /* RNCryptor_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D75773810E9F8FE90972B772DF2CF4 /* RNCryptor_objc.framework */; };
-		4F7428CD73FEC6ABE5C1C196A885E0D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F94DD523BFA304ECEC932E9649915 /* Foundation.framework */; };
-		55B73D030426D7375507B35F17CCEC5B /* UCARSingle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDDC64A3E5207ACA15C8C85F6232808 /* UCARSingle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55E9535554E58630137C333010DE0C72 /* UCARAudioTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBA7EF05A7511A4A0EABB9A50017315 /* UCARAudioTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		57197CC1E323B7505BB6A90A10DFF7A7 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4F253B92B633F7FEB3B42E60631A24 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04318D828920A7F76823864E2DE6670C /* UCARRecordSoundTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C75D8E7209A8F97F0AD06B6BB098C31B /* UCARRecordSoundTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		081DB5C8F134277C7C4DF9208B26C94B /* UCARRecordSoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93479F95F3E7608222AC6971B4F032AB /* UCARRecordSoundTool.m */; };
+		1BD63D30F066BBF83D3737A620111AB4 /* UCARLameTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A62507C36B32B483A2BDE1342F70ACA /* UCARLameTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3367CF60B8BD318AB21CFDCBE16002B9 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4CABBDC68488A92DC9EBC0B751778C /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		33B226D49B4F6A4556F5C404F84EA589 /* RNCryptor_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D75773810E9F8FE90972B772DF2CF4 /* RNCryptor_objc.framework */; };
+		3B096A9ACFE73FF255265DD6961F4975 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A874EADD62F5AAEEC533F32BB4C8AC0 /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B40FD09DF2165E45696CACE698C85A8 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4F253B92B633F7FEB3B42E60631A24 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC762E46B305B552DC18D43F02B794E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C5609AC8B64D11195D0EC0BABE6E9C /* Security.framework */; };
+		54778CE53178544EC467F84E58CA255C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C5609AC8B64D11195D0EC0BABE6E9C /* Security.framework */; };
 		58283D7D9D9528C5A8F06EA29268D11F /* Pods-DriverRecordSoundKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 114FA096542EF89ED74E1D53DAA6863A /* Pods-DriverRecordSoundKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CEDA580C013C6341BD496C0EEEA35A7 /* UCARRecordSoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2EEDE8DA7FD0EBE3D4A4191B42D0DB /* UCARRecordSoundTool.m */; };
-		60560AFAD0C129A399407E3F54BD9BB1 /* RNCryptor-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7158B6FCB4A396067D788338698F9656 /* RNCryptor-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66BD7A0C1CC32E01A42FEAADC3774BAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C868A8E3586A49E4C78B1E2BC0DDF9 /* AVFoundation.framework */; };
-		66DEC5363963C475105A851B946517C5 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4CABBDC68488A92DC9EBC0B751778C /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		698CCBEC862AAA82062269D37D16C31E /* RNCryptor-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7158B6FCB4A396067D788338698F9656 /* RNCryptor-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70CF85376B66940A51AAFB74B85DFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F94DD523BFA304ECEC932E9649915 /* Foundation.framework */; };
-		71792F81C3B6905F0820485D4C0E2991 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA978D1574075B35CE549A48DB51BAD /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		895AC1390E78FC43C1031F6724E161E9 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD49878B8927A0E3AA616A633CA1262 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9CBB0ECFCA4998E8D4E6EEC3F021323F /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A874EADD62F5AAEEC533F32BB4C8AC0 /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75F16346C542D5C119297F4D3D1D97B7 /* UCARAudioFilePathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D5B992724C600270896D9110EAAD6 /* UCARAudioFilePathTool.m */; };
+		768C9AF0EAA226C86E74FB7E300EB381 /* libmp3lame.a in Sources */ = {isa = PBXBuildFile; fileRef = EE51FE0C770A10F70B9EB652F8C62790 /* libmp3lame.a */; };
+		78FC9F29EEF51DAEA01121D26E4D534E /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F327EBBA21AD597B79F5F9130ACA95B /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7FA838F89D5E1E59D5797D7717B7CDE3 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4C364A9367C05E24C0FB440413ED39 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		856C60DA2D72010FFB1DC4C19B112988 /* UCARAudioTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C8289E974C4FF9D30DA00E1A9927A7 /* UCARAudioTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		897F86F4BAE2FBB99934D1989146A588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F94DD523BFA304ECEC932E9649915 /* Foundation.framework */; };
+		90D353B7A1C206B51F4EBD3D52F751A0 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9332E90AF7EB49029C50ED1F092A63 /* lame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95041D31039055661CFDB75CF042B284 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 969942224F022DDF06C7E99A7149BCC0 /* RNCryptor-objc-dummy.m */; };
 		A511BFEED5654BBF36AB162A8FFCF025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F94DD523BFA304ECEC932E9649915 /* Foundation.framework */; };
-		A8B987F72308179FDF0FEE9EA4567F50 /* libmp3lame.a in Sources */ = {isa = PBXBuildFile; fileRef = 781C2D5F33F3EB0D8F926AAE64E06956 /* libmp3lame.a */; };
+		AC5567175234B379D50F996370012659 /* UCARSingle.h in Headers */ = {isa = PBXBuildFile; fileRef = 387F7FFA43DA3C25B6F8FA8E03EA8DBB /* UCARSingle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B21889B39FD8FA401D318B6B483CCE3C /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD49878B8927A0E3AA616A633CA1262 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B495A07B51659CE081F3883177EC5417 /* Pods-DriverRecordSoundKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC4DCCBFF5D2928F65DF5B2BE4DCE42 /* Pods-DriverRecordSoundKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDA8F60934933F91C66C974BCF4DC279 /* UCARRecordSoundTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EB4E19F84A0F39E1706724EA0C04AA /* UCARRecordSoundTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF5DF03231EC43FB3E3778B60D902A3D /* UCARAudioFilePathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0149A3D438C77DDF464F0E21BE063A6A /* UCARAudioFilePathTool.m */; };
+		B634AE9C16F6833F1815E2351E968974 /* UCARAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 218903FAB3F8D12762166B46D8019E15 /* UCARAudioTool.m */; };
+		BCFF2B190726D82DE1D53B36228A24EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C868A8E3586A49E4C78B1E2BC0DDF9 /* AVFoundation.framework */; };
+		C04F0F2514EAE2A20E06B54DFCF14918 /* UCARRecorderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 34309ECC604A71B3F91AC69A82316DBC /* UCARRecorderKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C18C5455E94F523505F0F61D6B6F17FA /* UCARLameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 765E3A230C8B35BEACFA69BA34B9A75C /* UCARLameTool.m */; };
+		C8A5F4E33D10F91B4FDDBF9A8A452981 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6641680FADC4731E6681FC32DCC37766 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB3A38742EC554BCF28A140EC7F04837 /* UCARAudioFilePathTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2795A3A1D9E0B4BE0610EFEB45724377 /* UCARAudioFilePathTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFFE004DC04CE165BADD9113160E8F7E /* DriverRecordSoundKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A96651DFAC2A34222005B34713FC5DB9 /* DriverRecordSoundKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04C3197655778A9A5533AF8526C60A7 /* Pods-DriverRecordSoundKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCCB60158F7B5901BAA739B78370C1 /* Pods-DriverRecordSoundKit_Tests-dummy.m */; };
-		E4D1EA03EF92A7A43A9FEDB75B9298A4 /* UCARAudioFilePathTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DBE9B0E9EEBC18E97B5A6D8A3B3F7F /* UCARAudioFilePathTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1205B4737B1A43AE27A8DEFE76F8A7D /* DriverRecordSoundKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B517AFC843FFF792363E017A289F9330 /* DriverRecordSoundKit-dummy.m */; };
 		E8D2182286E3DD19E9474F1DB7CE0B57 /* Pods-DriverRecordSoundKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CEE819F347975DB21F1372B81480A8 /* Pods-DriverRecordSoundKit_Example-dummy.m */; };
-		E9143F6D4751CF5E5B3316DECD59E28B /* UCARRecorderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C796552D46E7F0C24B77BBF5B4A89957 /* UCARRecorderKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F7D093B09B167D2E798494F43ECBD5CE /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = C67B61F49592DE517F9FDE8D7A2DB87C /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD0F736D61BA6F66237F0AEAE8F8798A /* UCARLameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54404A37E82F2C7669C026D4D2763433 /* UCARLameTool.m */; };
+		F28A84649AC0B4C91617F174B124F41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F94DD523BFA304ECEC932E9649915 /* Foundation.framework */; };
+		FD6AF46F243B8429A687EEDCFE641AA8 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA978D1574075B35CE549A48DB51BAD /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE47E7FD6A73784FF64FE5BF10CE8CBA /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = C67B61F49592DE517F9FDE8D7A2DB87C /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8736F761A497CE29350733E9C61E5445 /* PBXContainerItemProxy */ = {
+		856E3CD9FB1CFBFDC955B15A24295850 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -79,74 +78,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0149A3D438C77DDF464F0E21BE063A6A /* UCARAudioFilePathTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARAudioFilePathTool.m; path = DriverRecordSoundKit/Classes/UCARAudioFilePathTool.m; sourceTree = "<group>"; };
 		06F60CBD50E68B60828D9D6644D18770 /* Pods-DriverRecordSoundKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriverRecordSoundKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0A62507C36B32B483A2BDE1342F70ACA /* UCARLameTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARLameTool.h; path = DriverRecordSoundKit/Classes/UCARLameTool.h; sourceTree = "<group>"; };
 		0F327EBBA21AD597B79F5F9130ACA95B /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
 		114FA096542EF89ED74E1D53DAA6863A /* Pods-DriverRecordSoundKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DriverRecordSoundKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		19C868A8E3586A49E4C78B1E2BC0DDF9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		1F19D0CF487B9D9EEF8EF24D2B39D96A /* DriverRecordSoundKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DriverRecordSoundKit-Info.plist"; sourceTree = "<group>"; };
-		219DA1BD55280498537CCE237A2DC384 /* DriverRecordSoundKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DriverRecordSoundKit.modulemap; sourceTree = "<group>"; };
+		218903FAB3F8D12762166B46D8019E15 /* UCARAudioTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARAudioTool.m; path = DriverRecordSoundKit/Classes/UCARAudioTool.m; sourceTree = "<group>"; };
+		2795A3A1D9E0B4BE0610EFEB45724377 /* UCARAudioFilePathTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARAudioFilePathTool.h; path = DriverRecordSoundKit/Classes/UCARAudioFilePathTool.h; sourceTree = "<group>"; };
+		2A9332E90AF7EB49029C50ED1F092A63 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = DriverRecordSoundKit/Classes/lame.h; sourceTree = "<group>"; };
 		2E642ED920D279A682FB5DF0E5067595 /* Pods-DriverRecordSoundKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DriverRecordSoundKit_Example.modulemap"; sourceTree = "<group>"; };
+		34309ECC604A71B3F91AC69A82316DBC /* UCARRecorderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARRecorderKit.h; path = DriverRecordSoundKit/Classes/UCARRecorderKit.h; sourceTree = "<group>"; };
+		353D5B992724C600270896D9110EAAD6 /* UCARAudioFilePathTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARAudioFilePathTool.m; path = DriverRecordSoundKit/Classes/UCARAudioFilePathTool.m; sourceTree = "<group>"; };
+		387F7FFA43DA3C25B6F8FA8E03EA8DBB /* UCARSingle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARSingle.h; path = DriverRecordSoundKit/Classes/UCARSingle.h; sourceTree = "<group>"; };
 		3B27727E95C15C7DA937A911B0A6AB81 /* Pods-DriverRecordSoundKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriverRecordSoundKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3BD49878B8927A0E3AA616A633CA1262 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
-		3BE4CC4A3D0B3B2A7DDD7CB373D72446 /* RNCryptor iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor iOS.h"; path = "DriverRecordSoundKit/Classes/RNCryptor iOS.h"; sourceTree = "<group>"; };
 		3E4BC2D554F00791DB4E86F75B161647 /* RNCryptor-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RNCryptor-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		40F8E993631F8A978AC29D3E720ECAA2 /* RNCryptor-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RNCryptor-objc.release.xcconfig"; sourceTree = "<group>"; };
 		42B171BE450B79ED502E5C1ACD789770 /* Pods_DriverRecordSoundKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DriverRecordSoundKit_Tests.framework; path = "Pods-DriverRecordSoundKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4CABBDC68488A92DC9EBC0B751778C /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
 		4F20CF111D0F685A6F40EF9FC536C853 /* Pods-DriverRecordSoundKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DriverRecordSoundKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53E3A0DFBDE1178AE93AD4E9DD4195B8 /* DriverRecordSoundKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriverRecordSoundKit-prefix.pch"; sourceTree = "<group>"; };
 		54270E51B1B46B6F778B6D504B439DE8 /* RNCryptor-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-prefix.pch"; sourceTree = "<group>"; };
-		54404A37E82F2C7669C026D4D2763433 /* UCARLameTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARLameTool.m; path = DriverRecordSoundKit/Classes/UCARLameTool.m; sourceTree = "<group>"; };
-		57DBE9B0E9EEBC18E97B5A6D8A3B3F7F /* UCARAudioFilePathTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARAudioFilePathTool.h; path = DriverRecordSoundKit/Classes/UCARAudioFilePathTool.h; sourceTree = "<group>"; };
-		5818F354E09E497B1BFF29FBD9237A37 /* DriverRecordSoundKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DriverRecordSoundKit.debug.xcconfig; sourceTree = "<group>"; };
+		5448E17870F7BF0EF6F8A9DB7B4AB90D /* DriverRecordSoundKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DriverRecordSoundKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		583062E42D8E38C56BA9983FA2843EE9 /* Pods-DriverRecordSoundKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriverRecordSoundKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		59ACBC33A5CC30A352897F0CA50354D2 /* RNCryptor-objc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RNCryptor-objc-Info.plist"; sourceTree = "<group>"; };
-		59B3C84F22AE2EFE47D7A0FC6E1D788D /* UCARAudioTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARAudioTool.m; path = DriverRecordSoundKit/Classes/UCARAudioTool.m; sourceTree = "<group>"; };
 		6641680FADC4731E6681FC32DCC37766 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
 		67CEE819F347975DB21F1372B81480A8 /* Pods-DriverRecordSoundKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DriverRecordSoundKit_Example-dummy.m"; sourceTree = "<group>"; };
+		6A2E27897EC138C61AAE065123DE278C /* DriverRecordSoundKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DriverRecordSoundKit.modulemap; sourceTree = "<group>"; };
 		6A874EADD62F5AAEEC533F32BB4C8AC0 /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
 		7158B6FCB4A396067D788338698F9656 /* RNCryptor-objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-umbrella.h"; sourceTree = "<group>"; };
 		716FD02999F638B743F8C40B391EFE34 /* Pods-DriverRecordSoundKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DriverRecordSoundKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		742A92600768E334B32C0EFA70737405 /* DriverRecordSoundKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriverRecordSoundKit-prefix.pch"; sourceTree = "<group>"; };
-		75DF71BAEF5B9A840A697B59AA54AAD8 /* DriverRecordSoundKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DriverRecordSoundKit-dummy.m"; sourceTree = "<group>"; };
-		77BC4182A3BE71AC1F5EDEFC6374A329 /* DriverRecordSoundKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriverRecordSoundKit-umbrella.h"; sourceTree = "<group>"; };
-		781C2D5F33F3EB0D8F926AAE64E06956 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = DriverRecordSoundKit/Classes/libmp3lame.a; sourceTree = "<group>"; };
-		7BDDC64A3E5207ACA15C8C85F6232808 /* UCARSingle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARSingle.h; path = DriverRecordSoundKit/Classes/UCARSingle.h; sourceTree = "<group>"; };
+		765E3A230C8B35BEACFA69BA34B9A75C /* UCARLameTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARLameTool.m; path = DriverRecordSoundKit/Classes/UCARLameTool.m; sourceTree = "<group>"; };
+		7870E79BCB218556FF6B9F904FCEF18E /* DriverRecordSoundKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DriverRecordSoundKit.release.xcconfig; sourceTree = "<group>"; };
+		80D3939654F25B8366B6336491F3A76C /* DriverRecordSoundKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DriverRecordSoundKit-Info.plist"; sourceTree = "<group>"; };
 		81120CE7D701F7AB4C4E28D4016A372D /* DriverRecordSoundKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DriverRecordSoundKit.framework; path = DriverRecordSoundKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8158245BD99A1620B71B393A5E03B714 /* Pods-DriverRecordSoundKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DriverRecordSoundKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		89C11CF73FEEF884E23F8468B8A7B1C8 /* Pods_DriverRecordSoundKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DriverRecordSoundKit_Example.framework; path = "Pods-DriverRecordSoundKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B3EC14C5D7B6DCDAEE37CEF82753E66 /* DriverRecordSoundKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DriverRecordSoundKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C4F253B92B633F7FEB3B42E60631A24 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
-		8E350206D7F260DF00A804984803885B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8F3B4B90864C49C87D880B9F97AB7B46 /* Pods-DriverRecordSoundKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DriverRecordSoundKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		908F94DD523BFA304ECEC932E9649915 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		91C5609AC8B64D11195D0EC0BABE6E9C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		93B4AC534DE832C6902051BD6F025CDB /* DriverRecordSoundKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DriverRecordSoundKit.release.xcconfig; sourceTree = "<group>"; };
+		93479F95F3E7608222AC6971B4F032AB /* UCARRecordSoundTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARRecordSoundTool.m; path = DriverRecordSoundKit/Classes/UCARRecordSoundTool.m; sourceTree = "<group>"; };
 		96317B15F0C4218EFAB7400C470A53A3 /* Pods-DriverRecordSoundKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DriverRecordSoundKit_Example-Info.plist"; sourceTree = "<group>"; };
 		969942224F022DDF06C7E99A7149BCC0 /* RNCryptor-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-objc-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2D75773810E9F8FE90972B772DF2CF4 /* RNCryptor_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNCryptor_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52236C6E99CBE28F0D25ED255582063 /* RNCryptor_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNCryptor_objc.framework; path = "RNCryptor-objc.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67A459F7410DD5F092984FB8E91AC46 /* Pods-DriverRecordSoundKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DriverRecordSoundKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		AEBA7EF05A7511A4A0EABB9A50017315 /* UCARAudioTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARAudioTool.h; path = DriverRecordSoundKit/Classes/UCARAudioTool.h; sourceTree = "<group>"; };
+		A96651DFAC2A34222005B34713FC5DB9 /* DriverRecordSoundKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriverRecordSoundKit-umbrella.h"; sourceTree = "<group>"; };
+		AD0F033FEF4ED88EC4CCB39CD514AC01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AFA978D1574075B35CE549A48DB51BAD /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
-		B486B6BBE60E0B18F115033D6F4F743F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B4CFEA971893A3952AAA267640903572 /* Pods-DriverRecordSoundKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriverRecordSoundKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B65940BCA5E4AF798E7C7B9B042E0E12 /* UCARLameTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARLameTool.h; path = DriverRecordSoundKit/Classes/UCARLameTool.h; sourceTree = "<group>"; };
+		B517AFC843FFF792363E017A289F9330 /* DriverRecordSoundKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DriverRecordSoundKit-dummy.m"; sourceTree = "<group>"; };
 		BE4C364A9367C05E24C0FB440413ED39 /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
 		C67B61F49592DE517F9FDE8D7A2DB87C /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
-		C796552D46E7F0C24B77BBF5B4A89957 /* UCARRecorderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARRecorderKit.h; path = DriverRecordSoundKit/Classes/UCARRecorderKit.h; sourceTree = "<group>"; };
+		C75D8E7209A8F97F0AD06B6BB098C31B /* UCARRecordSoundTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARRecordSoundTool.h; path = DriverRecordSoundKit/Classes/UCARRecordSoundTool.h; sourceTree = "<group>"; };
 		C9E8FA8CF110DE8145DDCC7206847939 /* Pods-DriverRecordSoundKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DriverRecordSoundKit_Tests.modulemap"; sourceTree = "<group>"; };
 		D0358D5FDDDE40DBB71AC672DAC940EF /* Pods-DriverRecordSoundKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriverRecordSoundKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D96879AD218774FE2CCBD72228C3A796 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = DriverRecordSoundKit/Classes/lame.h; sourceTree = "<group>"; };
-		DB2EEDE8DA7FD0EBE3D4A4191B42D0DB /* UCARRecordSoundTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCARRecordSoundTool.m; path = DriverRecordSoundKit/Classes/UCARRecordSoundTool.m; sourceTree = "<group>"; };
+		D0FA5FDF0B7EABA6F6FC90AA99D89E8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DDC4DCCBFF5D2928F65DF5B2BE4DCE42 /* Pods-DriverRecordSoundKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DriverRecordSoundKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E4C8289E974C4FF9D30DA00E1A9927A7 /* UCARAudioTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARAudioTool.h; path = DriverRecordSoundKit/Classes/UCARAudioTool.h; sourceTree = "<group>"; };
 		EDDCCB60158F7B5901BAA739B78370C1 /* Pods-DriverRecordSoundKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DriverRecordSoundKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		F1EB4E19F84A0F39E1706724EA0C04AA /* UCARRecordSoundTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCARRecordSoundTool.h; path = DriverRecordSoundKit/Classes/UCARRecordSoundTool.h; sourceTree = "<group>"; };
+		EE51FE0C770A10F70B9EB652F8C62790 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = DriverRecordSoundKit/Classes/libmp3lame.a; sourceTree = "<group>"; };
+		F37EE1A31016773C43425106B951E710 /* DriverRecordSoundKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DriverRecordSoundKit.debug.xcconfig; sourceTree = "<group>"; };
 		FEE6BF19458E221929A01668179B78B0 /* RNCryptor-objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RNCryptor-objc.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		695C71F92FD6D97D1BF067AACF48E637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28A84649AC0B4C91617F174B124F41C /* Foundation.framework in Frameworks */,
+				54778CE53178544EC467F84E58CA255C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9B6824ADD4EF41D0A74E4AC4270A391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,23 +162,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE7E2964F6E49015FDF6ABCB9C290F3 /* Frameworks */ = {
+		BA9F20FA94EF63B3D11193D2A5B96E8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BD7A0C1CC32E01A42FEAADC3774BAB /* AVFoundation.framework in Frameworks */,
-				4F7428CD73FEC6ABE5C1C196A885E0D5 /* Foundation.framework in Frameworks */,
-				4B2140384FD6702F9F3A5DEE7A7466AD /* RNCryptor_objc.framework in Frameworks */,
-				26C15022B0590CDBA49883BEF842D38E /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D941FC3AF4521ABB89DBE3822FF351BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2ED97694E2E781C8155FD76109685D83 /* Foundation.framework in Frameworks */,
-				14767D149ACAE62AFFBB021AE3F88E0E /* Security.framework in Frameworks */,
+				BCFF2B190726D82DE1D53B36228A24EF /* AVFoundation.framework in Frameworks */,
+				897F86F4BAE2FBB99934D1989146A588 /* Foundation.framework in Frameworks */,
+				33B226D49B4F6A4556F5C404F84EA589 /* RNCryptor_objc.framework in Frameworks */,
+				4EC762E46B305B552DC18D43F02B794E /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,43 +219,26 @@
 			path = "Target Support Files/Pods-DriverRecordSoundKit_Example";
 			sourceTree = "<group>";
 		};
-		405758AF813893BE29DDE17F94FE4FA1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C3670FF9BCFB0F53256758B2C45C342 /* DriverRecordSoundKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		480CB00A4233DA50125C10B2223803AB /* Frameworks */ = {
+		41BB500CC465164FBFCF37AFB3613A37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7C3670FF9BCFB0F53256758B2C45C342 /* DriverRecordSoundKit */ = {
+		4C0F771DD1C38FBB04F8BECDD867FD2D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D96879AD218774FE2CCBD72228C3A796 /* lame.h */,
-				781C2D5F33F3EB0D8F926AAE64E06956 /* libmp3lame.a */,
-				3BE4CC4A3D0B3B2A7DDD7CB373D72446 /* RNCryptor iOS.h */,
-				57DBE9B0E9EEBC18E97B5A6D8A3B3F7F /* UCARAudioFilePathTool.h */,
-				0149A3D438C77DDF464F0E21BE063A6A /* UCARAudioFilePathTool.m */,
-				AEBA7EF05A7511A4A0EABB9A50017315 /* UCARAudioTool.h */,
-				59B3C84F22AE2EFE47D7A0FC6E1D788D /* UCARAudioTool.m */,
-				B65940BCA5E4AF798E7C7B9B042E0E12 /* UCARLameTool.h */,
-				54404A37E82F2C7669C026D4D2763433 /* UCARLameTool.m */,
-				C796552D46E7F0C24B77BBF5B4A89957 /* UCARRecorderKit.h */,
-				F1EB4E19F84A0F39E1706724EA0C04AA /* UCARRecordSoundTool.h */,
-				DB2EEDE8DA7FD0EBE3D4A4191B42D0DB /* UCARRecordSoundTool.m */,
-				7BDDC64A3E5207ACA15C8C85F6232808 /* UCARSingle.h */,
-				480CB00A4233DA50125C10B2223803AB /* Frameworks */,
-				8A4273A0BE523BE235C7F1B80B03BD3D /* Pod */,
-				EEC5991C73835A724F372DFF5B2B685A /* Support Files */,
+				6A2E27897EC138C61AAE065123DE278C /* DriverRecordSoundKit.modulemap */,
+				B517AFC843FFF792363E017A289F9330 /* DriverRecordSoundKit-dummy.m */,
+				80D3939654F25B8366B6336491F3A76C /* DriverRecordSoundKit-Info.plist */,
+				53E3A0DFBDE1178AE93AD4E9DD4195B8 /* DriverRecordSoundKit-prefix.pch */,
+				A96651DFAC2A34222005B34713FC5DB9 /* DriverRecordSoundKit-umbrella.h */,
+				F37EE1A31016773C43425106B951E710 /* DriverRecordSoundKit.debug.xcconfig */,
+				7870E79BCB218556FF6B9F904FCEF18E /* DriverRecordSoundKit.release.xcconfig */,
 			);
-			name = DriverRecordSoundKit;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DriverRecordSoundKit";
 			sourceTree = "<group>";
 		};
 		82B079B265C5C9EB1A8097A966E071D0 /* Targets Support Files */ = {
@@ -276,16 +257,6 @@
 				C63FDCCEFDB776A7079EBE042396754A /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8A4273A0BE523BE235C7F1B80B03BD3D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8B3EC14C5D7B6DCDAEE37CEF82753E66 /* DriverRecordSoundKit.podspec */,
-				B486B6BBE60E0B18F115033D6F4F743F /* LICENSE */,
-				8E350206D7F260DF00A804984803885B /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A795CC5A27A9F0B8E3144D2F6EDAE187 /* Pods */ = {
@@ -326,7 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				405758AF813893BE29DDE17F94FE4FA1 /* Development Pods */,
+				E5B791371D8CCC0F6C87E2B7D82593A7 /* Development Pods */,
 				868F82DB976EDD44B7D53D3F031F4DD6 /* Frameworks */,
 				A795CC5A27A9F0B8E3144D2F6EDAE187 /* Pods */,
 				D25EB9E46E5CBCC93206B6EF1F1CF758 /* Products */,
@@ -360,24 +331,63 @@
 			path = "../Target Support Files/RNCryptor-objc";
 			sourceTree = "<group>";
 		};
-		EEC5991C73835A724F372DFF5B2B685A /* Support Files */ = {
+		E5B791371D8CCC0F6C87E2B7D82593A7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				219DA1BD55280498537CCE237A2DC384 /* DriverRecordSoundKit.modulemap */,
-				75DF71BAEF5B9A840A697B59AA54AAD8 /* DriverRecordSoundKit-dummy.m */,
-				1F19D0CF487B9D9EEF8EF24D2B39D96A /* DriverRecordSoundKit-Info.plist */,
-				742A92600768E334B32C0EFA70737405 /* DriverRecordSoundKit-prefix.pch */,
-				77BC4182A3BE71AC1F5EDEFC6374A329 /* DriverRecordSoundKit-umbrella.h */,
-				5818F354E09E497B1BFF29FBD9237A37 /* DriverRecordSoundKit.debug.xcconfig */,
-				93B4AC534DE832C6902051BD6F025CDB /* DriverRecordSoundKit.release.xcconfig */,
+				F1B52EEA77035FD8FCDD8507C3351C62 /* DriverRecordSoundKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DriverRecordSoundKit";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E895FE9DEC58B2D9DBB64BAB800989ED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5448E17870F7BF0EF6F8A9DB7B4AB90D /* DriverRecordSoundKit.podspec */,
+				AD0F033FEF4ED88EC4CCB39CD514AC01 /* LICENSE */,
+				D0FA5FDF0B7EABA6F6FC90AA99D89E8F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F1B52EEA77035FD8FCDD8507C3351C62 /* DriverRecordSoundKit */ = {
+			isa = PBXGroup;
+			children = (
+				2A9332E90AF7EB49029C50ED1F092A63 /* lame.h */,
+				EE51FE0C770A10F70B9EB652F8C62790 /* libmp3lame.a */,
+				2795A3A1D9E0B4BE0610EFEB45724377 /* UCARAudioFilePathTool.h */,
+				353D5B992724C600270896D9110EAAD6 /* UCARAudioFilePathTool.m */,
+				E4C8289E974C4FF9D30DA00E1A9927A7 /* UCARAudioTool.h */,
+				218903FAB3F8D12762166B46D8019E15 /* UCARAudioTool.m */,
+				0A62507C36B32B483A2BDE1342F70ACA /* UCARLameTool.h */,
+				765E3A230C8B35BEACFA69BA34B9A75C /* UCARLameTool.m */,
+				34309ECC604A71B3F91AC69A82316DBC /* UCARRecorderKit.h */,
+				C75D8E7209A8F97F0AD06B6BB098C31B /* UCARRecordSoundTool.h */,
+				93479F95F3E7608222AC6971B4F032AB /* UCARRecordSoundTool.m */,
+				387F7FFA43DA3C25B6F8FA8E03EA8DBB /* UCARSingle.h */,
+				41BB500CC465164FBFCF37AFB3613A37 /* Frameworks */,
+				E895FE9DEC58B2D9DBB64BAB800989ED /* Pod */,
+				4C0F771DD1C38FBB04F8BECDD867FD2D /* Support Files */,
+			);
+			name = DriverRecordSoundKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1762A3C7FA0AB6E3E60F1D22F7072618 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21889B39FD8FA401D318B6B483CCE3C /* RNCryptor+Private.h in Headers */,
+				698CCBEC862AAA82062269D37D16C31E /* RNCryptor-objc-umbrella.h in Headers */,
+				FD6AF46F243B8429A687EEDCFE641AA8 /* RNCryptor.h in Headers */,
+				3367CF60B8BD318AB21CFDCBE16002B9 /* RNCryptorEngine.h in Headers */,
+				FE47E7FD6A73784FF64FE5BF10CE8CBA /* RNDecryptor.h in Headers */,
+				3B40FD09DF2165E45696CACE698C85A8 /* RNEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31CA14AD24D9B7E618D34406F9761B4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,32 +404,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		569677D0630D78FCEAACFA7AD9A55291 /* Headers */ = {
+		92E4B3299F25CFE1C02AAC82F8D56D23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0746DF22BD105F787A36E897CC6A3ED6 /* DriverRecordSoundKit-umbrella.h in Headers */,
-				2AD9FC4E654F9BBD4ECFF0BDB1BFAD2A /* lame.h in Headers */,
-				19B81D1839EFCC9E9DAC8388D902CB1B /* RNCryptor iOS.h in Headers */,
-				E4D1EA03EF92A7A43A9FEDB75B9298A4 /* UCARAudioFilePathTool.h in Headers */,
-				55E9535554E58630137C333010DE0C72 /* UCARAudioTool.h in Headers */,
-				23A26B5E14CD7B4B15A46B26447C5D34 /* UCARLameTool.h in Headers */,
-				E9143F6D4751CF5E5B3316DECD59E28B /* UCARRecorderKit.h in Headers */,
-				CDA8F60934933F91C66C974BCF4DC279 /* UCARRecordSoundTool.h in Headers */,
-				55B73D030426D7375507B35F17CCEC5B /* UCARSingle.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1A9CE68ED4F2B39715AEBDC1AE43D82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				895AC1390E78FC43C1031F6724E161E9 /* RNCryptor+Private.h in Headers */,
-				60560AFAD0C129A399407E3F54BD9BB1 /* RNCryptor-objc-umbrella.h in Headers */,
-				71792F81C3B6905F0820485D4C0E2991 /* RNCryptor.h in Headers */,
-				66DEC5363963C475105A851B946517C5 /* RNCryptorEngine.h in Headers */,
-				F7D093B09B167D2E798494F43ECBD5CE /* RNDecryptor.h in Headers */,
-				57197CC1E323B7505BB6A90A10DFF7A7 /* RNEncryptor.h in Headers */,
+				CFFE004DC04CE165BADD9113160E8F7E /* DriverRecordSoundKit-umbrella.h in Headers */,
+				90D353B7A1C206B51F4EBD3D52F751A0 /* lame.h in Headers */,
+				CB3A38742EC554BCF28A140EC7F04837 /* UCARAudioFilePathTool.h in Headers */,
+				856C60DA2D72010FFB1DC4C19B112988 /* UCARAudioTool.h in Headers */,
+				1BD63D30F066BBF83D3737A620111AB4 /* UCARLameTool.h in Headers */,
+				C04F0F2514EAE2A20E06B54DFCF14918 /* UCARRecorderKit.h in Headers */,
+				04318D828920A7F76823864E2DE6670C /* UCARRecordSoundTool.h in Headers */,
+				AC5567175234B379D50F996370012659 /* UCARSingle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,12 +444,12 @@
 		};
 		7198B1667AFEBBCAA54A1C6CFFB2CE8F /* RNCryptor-objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFCAB5DA5631F4C25DCC4949003FB5DD /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
+			buildConfigurationList = 84019F0E9076186F9C9C27AF52F6AEB2 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
 			buildPhases = (
-				C1A9CE68ED4F2B39715AEBDC1AE43D82 /* Headers */,
-				57A1FD36497D23ED3B4F6D49B1678327 /* Sources */,
-				D941FC3AF4521ABB89DBE3822FF351BE /* Frameworks */,
-				65EC182FA743C6CE4A8B51D2F0C5545F /* Resources */,
+				1762A3C7FA0AB6E3E60F1D22F7072618 /* Headers */,
+				84CB0F3C06733514D589BE4A1BB2DBDF /* Sources */,
+				695C71F92FD6D97D1BF067AACF48E637 /* Frameworks */,
+				85B4B17A716217B10896E87D8C71D7FE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -485,17 +481,17 @@
 		};
 		B3AFC12FAD137526871EC9349260207B /* DriverRecordSoundKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 589936B9BEC0683762D12B8D3CD820AD /* Build configuration list for PBXNativeTarget "DriverRecordSoundKit" */;
+			buildConfigurationList = 3703BDEDCDD7F723BF4F14D881C8EEC1 /* Build configuration list for PBXNativeTarget "DriverRecordSoundKit" */;
 			buildPhases = (
-				569677D0630D78FCEAACFA7AD9A55291 /* Headers */,
-				B9FF70EAC808CE04AC96B4B4EB9CDCCE /* Sources */,
-				BEE7E2964F6E49015FDF6ABCB9C290F3 /* Frameworks */,
-				1727FE87D13C0631283A35C165D3C1B1 /* Resources */,
+				92E4B3299F25CFE1C02AAC82F8D56D23 /* Headers */,
+				DD9EC1AF42259DFB27123092A2A10E69 /* Sources */,
+				BA9F20FA94EF63B3D11193D2A5B96E8A /* Frameworks */,
+				31BDEF6EDB1C4810EAA2F202BC4051F1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B181FE6E54CE63512138695C40DC7BA /* PBXTargetDependency */,
+				E76CEFB1464838DDB2B6C02DB4DF3984 /* PBXTargetDependency */,
 			);
 			name = DriverRecordSoundKit;
 			productName = DriverRecordSoundKit;
@@ -533,7 +529,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1727FE87D13C0631283A35C165D3C1B1 /* Resources */ = {
+		31BDEF6EDB1C4810EAA2F202BC4051F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -547,7 +543,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65EC182FA743C6CE4A8B51D2F0C5545F /* Resources */ = {
+		85B4B17A716217B10896E87D8C71D7FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -572,15 +568,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57A1FD36497D23ED3B4F6D49B1678327 /* Sources */ = {
+		84CB0F3C06733514D589BE4A1BB2DBDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F10B685FF2C27160D004081BD4D02D8 /* RNCryptor-objc-dummy.m in Sources */,
-				216409F7E2015AED76BB1BD96EE3318E /* RNCryptor.m in Sources */,
-				9CBB0ECFCA4998E8D4E6EEC3F021323F /* RNCryptorEngine.m in Sources */,
-				3D332979D8A77998A72214E049ABC19C /* RNDecryptor.m in Sources */,
-				1CFABDF80BD6A45EC48C58246721B18E /* RNEncryptor.m in Sources */,
+				95041D31039055661CFDB75CF042B284 /* RNCryptor-objc-dummy.m in Sources */,
+				78FC9F29EEF51DAEA01121D26E4D534E /* RNCryptor.m in Sources */,
+				3B096A9ACFE73FF255265DD6961F4975 /* RNCryptorEngine.m in Sources */,
+				C8A5F4E33D10F91B4FDDBF9A8A452981 /* RNDecryptor.m in Sources */,
+				7FA838F89D5E1E59D5797D7717B7CDE3 /* RNEncryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,28 +588,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9FF70EAC808CE04AC96B4B4EB9CDCCE /* Sources */ = {
+		DD9EC1AF42259DFB27123092A2A10E69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6B884F87CE824A6703974B770957C3 /* DriverRecordSoundKit-dummy.m in Sources */,
-				A8B987F72308179FDF0FEE9EA4567F50 /* libmp3lame.a in Sources */,
-				CF5DF03231EC43FB3E3778B60D902A3D /* UCARAudioFilePathTool.m in Sources */,
-				4741CE2D0FAC837BB7B772B4F9CDFE1D /* UCARAudioTool.m in Sources */,
-				FD0F736D61BA6F66237F0AEAE8F8798A /* UCARLameTool.m in Sources */,
-				5CEDA580C013C6341BD496C0EEEA35A7 /* UCARRecordSoundTool.m in Sources */,
+				D1205B4737B1A43AE27A8DEFE76F8A7D /* DriverRecordSoundKit-dummy.m in Sources */,
+				768C9AF0EAA226C86E74FB7E300EB381 /* libmp3lame.a in Sources */,
+				75F16346C542D5C119297F4D3D1D97B7 /* UCARAudioFilePathTool.m in Sources */,
+				B634AE9C16F6833F1815E2351E968974 /* UCARAudioTool.m in Sources */,
+				C18C5455E94F523505F0F61D6B6F17FA /* UCARLameTool.m in Sources */,
+				081DB5C8F134277C7C4DF9208B26C94B /* UCARRecordSoundTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B181FE6E54CE63512138695C40DC7BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RNCryptor-objc";
-			target = 7198B1667AFEBBCAA54A1C6CFFB2CE8F /* RNCryptor-objc */;
-			targetProxy = 8736F761A497CE29350733E9C61E5445 /* PBXContainerItemProxy */;
-		};
 		4BD9285572951637B29FD7EEC8763AD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DriverRecordSoundKit;
@@ -626,6 +616,12 @@
 			target = 43C77F260BB41D0AB95843B68C7631A7 /* Pods-DriverRecordSoundKit_Example */;
 			targetProxy = A38FF0D8C86BCF57127CA9620DCA630E /* PBXContainerItemProxy */;
 		};
+		E76CEFB1464838DDB2B6C02DB4DF3984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RNCryptor-objc";
+			target = 7198B1667AFEBBCAA54A1C6CFFB2CE8F /* RNCryptor-objc */;
+			targetProxy = 856E3CD9FB1CFBFDC955B15A24295850 /* PBXContainerItemProxy */;
+		};
 		F59B149596E5FD4C765E8419D251C760 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RNCryptor-objc";
@@ -635,6 +631,71 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A9469058BB44A38923EBCD4DDC0094F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7870E79BCB218556FF6B9F904FCEF18E /* DriverRecordSoundKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DriverRecordSoundKit/DriverRecordSoundKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DriverRecordSoundKit/DriverRecordSoundKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DriverRecordSoundKit/DriverRecordSoundKit.modulemap";
+				PRODUCT_MODULE_NAME = DriverRecordSoundKit;
+				PRODUCT_NAME = DriverRecordSoundKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12B50EE2EF688D905C312130B8B0CAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F8E993631F8A978AC29D3E720ECAA2 /* RNCryptor-objc.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor_objc;
+				PRODUCT_NAME = RNCryptor_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -695,6 +756,37 @@
 			};
 			name = Release;
 		};
+		6242104D82B15575E4C1443149804ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4BC2D554F00791DB4E86F75B161647 /* RNCryptor-objc.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor_objc;
+				PRODUCT_NAME = RNCryptor_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		67C6D0816DFD9452CEEBB0B87433EA3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4CFEA971893A3952AAA267640903572 /* Pods-DriverRecordSoundKit_Tests.debug.xcconfig */;
@@ -727,39 +819,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		77F0F77E7A19D093CDF1DA8DE0CB28DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93B4AC534DE832C6902051BD6F025CDB /* DriverRecordSoundKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DriverRecordSoundKit/DriverRecordSoundKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DriverRecordSoundKit/DriverRecordSoundKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DriverRecordSoundKit/DriverRecordSoundKit.modulemap";
-				PRODUCT_MODULE_NAME = DriverRecordSoundKit;
-				PRODUCT_NAME = DriverRecordSoundKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7E947BA829890D21329EF435BB252858 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -859,72 +918,9 @@
 			};
 			name = Debug;
 		};
-		881B38EDC07977686988AAA32B3ACA69 /* Debug */ = {
+		A85F477A41F6D1CC7BF42AD1BF50E6C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E4BC2D554F00791DB4E86F75B161647 /* RNCryptor-objc.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
-				PRODUCT_MODULE_NAME = RNCryptor_objc;
-				PRODUCT_NAME = RNCryptor_objc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B58C995A067FBE4BB1B8FCB5CFB0B643 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40F8E993631F8A978AC29D3E720ECAA2 /* RNCryptor-objc.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
-				PRODUCT_MODULE_NAME = RNCryptor_objc;
-				PRODUCT_NAME = RNCryptor_objc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BE4599988E9B42707EDD62DC1A330986 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5818F354E09E497B1BFF29FBD9237A37 /* DriverRecordSoundKit.debug.xcconfig */;
+			baseConfigurationReference = F37EE1A31016773C43425106B951E710 /* DriverRecordSoundKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1033,6 +1029,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3703BDEDCDD7F723BF4F14D881C8EEC1 /* Build configuration list for PBXNativeTarget "DriverRecordSoundKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F477A41F6D1CC7BF42AD1BF50E6C2 /* Debug */,
+				0A9469058BB44A38923EBCD4DDC0094F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3C2C98710B4C3395ED187C8BB356AD6C /* Build configuration list for PBXNativeTarget "Pods-DriverRecordSoundKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1051,20 +1056,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		589936B9BEC0683762D12B8D3CD820AD /* Build configuration list for PBXNativeTarget "DriverRecordSoundKit" */ = {
+		84019F0E9076186F9C9C27AF52F6AEB2 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE4599988E9B42707EDD62DC1A330986 /* Debug */,
-				77F0F77E7A19D093CDF1DA8DE0CB28DE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AFCAB5DA5631F4C25DCC4949003FB5DD /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				881B38EDC07977686988AAA32B3ACA69 /* Debug */,
-				B58C995A067FBE4BB1B8FCB5CFB0B643 /* Release */,
+				6242104D82B15575E4C1443149804ED1 /* Debug */,
+				12B50EE2EF688D905C312130B8B0CAC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
